@@ -264,6 +264,16 @@ const CreateContainer = () => {
 				</div>
 			</div>
 
+			<div className='flex items-center w-full'>
+				<button
+					type="button"
+					className="ml-0 md:ml-auto w-full md:w-auto border-none outline-none bg-emerald-500 px-12 py-2 rounded-lg text-lg text-white font-semibold"
+					onClick={saveDetails}
+				>
+					Save
+				</button>
+			</div>
+
 		</div>
 	</div>
   )
